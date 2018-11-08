@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>SpecialRoundBtn.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>TestUI.qml</file>
+        <file>TestUIForm.ui.qml</file>
+        <file>CVCameraSRC/BetterVideoCapture.cpp</file>
+        <file>CVCameraSRC/BetterVideoCapture.h</file>
+        <file>CVCameraSRC/CameraThread.cpp</file>
+        <file>CVCameraSRC/CameraThread.h</file>
+        <file>CVCameraSRC/CVCamera.cpp</file>
+        <file>CVCameraSRC/CVCamera.h</file>
+        <file>Res/apps.png</file>
+        <file>Res/arrow.png</file>
+        <file>Res/chrome.png</file>
+        <file>Res/cog.png</file>
+        <file>Res/face_rec.png</file>
+        <file>Res/help.png</file>
+        <file>Res/nv_eye.png</file>
+        <file>Res/pencil.png</file>
+        <file>Res/selected_arrow.png</file>
+        <file>Res/shutdown.png</file>
+        <file>Res/video.png</file>
+        <file>ProgramButton.qml</file>
+    </qresource>
+</RCC>
