@@ -72,6 +72,8 @@ void FaceDetector::drawFaces(cv::Mat input, bool network) {
                                 qUtf8Printable(faceNames[predictedFace]));
                          emit faceFound(message);
                     }
+
+                    cv::putText(input, faceNames[predictedFace].toStdString(), cv::Point(faceVec[i].x*sampleFactor, faceVec[i].y*sampleFactor), CV_FONT_HERSHEY_PLAIN, sampleFactor + 0.5, cv::Scalar(0, 255, 0), 1);
                 }
                 else {
                     qDebug("Could not predict face");
